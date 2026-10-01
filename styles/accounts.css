@@ -1,0 +1,157 @@
+.as-acc-section {
+            padding: 100px 0;
+            background: #0f0f0f;
+        }
+        .as-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        .as-section-header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+        .as-badge {
+            color: var(--primary);
+            text-transform: uppercase;
+            font-weight: 700;
+            font-size: 0.8rem;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+            display: inline-block;
+        }
+        .as-section-title {
+            font-size: 3rem;
+            font-weight: 800;
+            margin-bottom: 20px;
+            color: #ffffff;
+        }
+        .as-section-subtitle {
+            color: #b7c2cb;
+            font-size: 1.1rem;
+            max-width: 700px;
+            margin: 0 auto 30px;
+        }
+        .as-highlight {
+            color: var(--primary);
+        }
+        .as-title-divider {
+            width: 80px;
+            height: 4px;
+            background: var(--primary);
+            margin: 0 auto;
+            border-radius: 2px;
+        }
+        .as-acc-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        .as-acc-card {
+            background: #0f0f0f;
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 24px;
+            padding: 40px 30px;
+            transition: all 0.4s ease;
+            position: relative;
+            overflow: hidden;
+            flex: 1 1 280px;
+            max-width: 380px;
+            cursor: pointer;
+        }
+        .as-acc-card:hover {
+            transform: translateY(-10px);
+            border-color: var(--primary);
+            background: rgba(255, 255, 255, 0.05);
+            box-shadow: 0 20px 40px rgba(16, 24, 40, 0.08);
+        }
+        .as-acc-card.featured {
+            border-color: rgba(244, 0, 0, 0.3);
+            background: rgba(244, 0, 0, 0.02);
+        }
+        .as-acc-icon {
+            color: var(--primary);
+            margin-bottom: 25px;
+        }
+        .as-acc-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            color: #ffffff;
+        }
+        .as-acc-desc {
+            color: #b7c2cb;
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 25px;
+        }
+        .as-acc-meta {
+            margin-bottom: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            font-size: 0.9rem;
+            color: #b7c2cb;
+        }
+        .as-acc-meta strong {
+            color: var(--primary);
+        }
+        .as-acc-link {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            color: #ffffff;
+            font-weight: 700;
+            font-size: 0.85rem;
+            letter-spacing: 1px;
+            text-decoration: none;
+            transition: gap 0.3s ease;
+        }
+        .as-acc-link:hover {
+            gap: 15px;
+            color: var(--primary);
+        }
+
+        /* Steps Section */
+        .as-steps-section {
+            padding: 100px 0;
+            background: #0f0f0f;
+        }
+        .as-steps-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 40px;
+            margin-top: 50px;
+        }
+        .as-step-item {
+            position: relative;
+            padding-left: 60px;
+        }
+        .as-step-num {
+            position: absolute;
+            left: 0;
+            top: 0;
+            font-size: 2.5rem;
+            font-weight: 900;
+            color: rgba(244, 0, 0, 0.12);
+            line-height: 1;
+            z-index: 1;
+        }
+        .as-step-item h4 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            color: #ffffff;
+            margin-bottom: 10px;
+            position: relative;
+            z-index: 2;
+        }
+        .as-step-item p {
+            color: #777;
+            font-size: 0.95rem;
+            line-height: 1.6;
+        }
+
+        @media (max-width: 768px) {
+            .as-section-title { font-size: 2.2rem; }
+        }

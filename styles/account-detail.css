@@ -1,0 +1,11 @@
+.account-feature-centered-grid {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 30px;
+        }
+        
+        .account-feature-centered-grid .premium-feature-card {
+            flex: 1 1 300px;
+            max-width: 350px;
+        }

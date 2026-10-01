@@ -1,0 +1,60 @@
+.as-hours-section { padding: 120px 0; background: #000; position: relative; }
+        .as-hours-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 80px; align-items: top; }
+        
+        /* Warning Card */
+        .as-hours-warning { margin-top: -40px; margin-bottom: 80px; }
+        .as-warning-card { background: rgba(244, 0, 0, 0.05); border: 1px solid rgba(244, 0, 0, 0.2); border-radius: 20px; padding: 25px 35px; display: flex; gap: 20px; align-items: center; max-width: 900px; margin: 0 auto; }
+        .as-warning-icon { color: var(--primary); }
+        .as-warning-text { color: #ccc; font-size: 0.95rem; line-height: 1.6; }
+        .as-warning-text strong { color: var(--primary); }
+
+        /* Session Cards */
+        .as-session-card { background: rgba(255,255,255,0.02); border: 1px solid rgba(255,255,255,0.05); border-radius: 24px; padding: 40px; transition: all 0.3s ease; }
+        .as-session-card:hover { transform: translateY(-5px); border-color: var(--primary); background: rgba(244,0,0,0.02); }
+        .as-session-header { display: flex; align-items: center; gap: 15px; margin-bottom: 25px; }
+        .as-session-header i { width: 24px; height: 24px; }
+        .as-session-header h3 { font-size: 1.5rem; color: #fff; font-weight: 800; }
+        .as-session-times { display: flex; gap: 40px; margin-bottom: 20px; }
+        .as-time-row { display: flex; flex-direction: column; gap: 5px; }
+        .as-time-row span { font-size: 0.75rem; color: #666; text-transform: uppercase; letter-spacing: 1px; }
+        .as-time-row strong { font-size: 1.25rem; color: var(--primary); font-family: 'Inter', sans-serif; }
+        .as-session-desc { color: #888; font-size: 0.95rem; line-height: 1.6; }
+
+        /* Overlap Styles */
+        .as-overlap-title { font-size: 0.9rem; color: #555; text-transform: uppercase; letter-spacing: 2px; font-weight: 700; margin-bottom: 15px; }
+        .as-overlap-card { background: rgba(255,255,255,0.01); border: 1px solid rgba(255,255,255,0.03); border-radius: 20px; padding: 30px; }
+        .as-overlap-item { display: flex; gap: 20px; align-items: center; margin-bottom: 25px; }
+        .as-overlap-item:last-child { margin-bottom: 0; }
+        .as-overlap-indicator { width: 4px; height: 35px; background: var(--primary); border-radius: 2px; box-shadow: 0 0 10px var(--primary); }
+        .as-overlap-indicator.secondary { background: #008a68; }
+        .as-overlap-content h5 { color: #fff; font-size: 1rem; font-weight: 700; margin-bottom: 3px; }
+        .as-overlap-content p { color: #666; font-size: 0.85rem; }
+
+        /* Weekend Box */
+        .as-weekend-box { background: rgba(255,255,255,0.01); border: 1px dashed rgba(255,255,255,0.1); border-radius: 16px; padding: 20px 30px; }
+        .as-weekend-content { display: flex; align-items: center; gap: 20px; color: #555; }
+        .as-weekend-content i { width: 24px; height: 24px; }
+        .as-weekend-content h5 { color: #888; font-size: 0.95rem; font-weight: 700; margin-bottom: 2px; }
+        .as-weekend-content p { font-size: 0.85rem; color: #666; }
+
+        /* Clock Visual */
+        .as-hours-visual { position: relative; }
+        .as-clock-container { position: relative; width: 100%; max-width: 500px; margin: 0 auto; }
+        .as-clock-img { width: 100%; height: auto; position: relative; z-index: 2; border-radius: 50%; filter: drop-shadow(0 0 30px rgba(244,0,0,0.1)); }
+        .as-clock-glow { position: absolute; top: 10%; left: 10%; width: 80%; height: 80%; background: radial-gradient(circle, rgba(244, 0, 0, 0.2) 0%, transparent 70%); z-index: 1; pointer-events: none; }
+        
+        .as-pulse-rings { position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 100%; height: 100%; }
+        .as-pulse-rings span { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 1px solid rgba(244, 0, 0, 0.2); border-radius: 50%; animation: pulseRing 4s infinite linear; }
+        .as-pulse-rings span:nth-child(2) { animation-delay: 2s; }
+        
+        @keyframes pulseRing {
+            0% { transform: scale(0.9); opacity: 0; }
+            50% { opacity: 0.5; }
+            100% { transform: scale(1.3); opacity: 0; }
+        }
+
+        @media (max-width: 991px) {
+            .as-hours-grid { grid-template-columns: 1fr; gap: 60px; }
+            .as-warning-card { flex-direction: column; text-align: center; }
+            .as-session-times { flex-wrap: wrap; }
+        }

@@ -1,0 +1,283 @@
+@import './style.css';
+@import './cta.css';
+@import './faq.css';
+@import './legal.css';
+@import './accounts.css';
+@import './ib-calc.css';
+@import './forex-hours.css';
+@import './misc-inline.css';
+@import './page-extras.css';
+@import './platforms.css';
+@import 'aos/dist/aos.css';
+@import './header-hantec.css';
+
+html,
+body {
+  background-color: #0f0f0f !important;
+  color: #d5dde4;
+  margin: 0 !important;
+  padding: 0 !important;
+  color-scheme: dark;
+}
+
+/* ---- Brand theme (#0f0f0f) ---- */
+html {
+  background-color: #0f0f0f !important;
+}
+
+body {
+  background: #0f0f0f !important;
+  color: #d5dde4 !important;
+}
+
+::-webkit-scrollbar-track {
+  background: #141414;
+}
+
+::-webkit-scrollbar-thumb {
+  border-color: #141414;
+}
+
+.hero,
+.market-knowledge-section,
+.main-footer,
+.main-footer .container,
+.main-footer .footer-top,
+.main-footer .footer-brand,
+.main-footer .footer-col,
+.main-footer .footer-disclaimer,
+.main-footer .footer-bottom,
+.as-acc-section,
+.as-steps-section,
+.as-team-section,
+.as-vision-section,
+.as-hours-section,
+.as-ib-intro,
+.as-intro-section,
+.as-features-section,
+.as-journey-section,
+.as-market-section,
+.as-why-choose,
+.platform-section,
+.contact-section,
+.top-header,
+.why-choose-section,
+.why-choose-section .container,
+.trust-foundation-v2,
+.stats-bar,
+.cfd-marketplace-v2,
+.cfd-products-v2,
+.journey-section-v2,
+.trading-steps-v2,
+.steps-section,
+.live-trading-section,
+.account-types-section,
+.payments-section,
+.awards-section,
+.faq-section,
+.assets-section,
+.trust-section,
+.orbital-hub {
+  background: #0f0f0f !important;
+  background-color: #0f0f0f !important;
+  color: #d5dde4;
+  color-scheme: dark;
+}
+
+main {
+  background-color: #0f0f0f !important;
+  background: #0f0f0f !important;
+  color-scheme: dark;
+}
+
+.main-footer {
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  color: #d5dde4 !important;
+}
+
+.main-footer a,
+.main-footer p,
+.main-footer li,
+.footer-tagline,
+.footer-disclaimer p,
+.footer-registration p {
+  color: #d5dde4 !important;
+}
+
+.main-footer h4 {
+  color: #ffffff !important;
+}
+
+.main-header {
+  background: rgba(25, 38, 47, 0.96) !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: none;
+}
+
+.desktop-nav > a,
+.nav-item-dropdown > a {
+  color: #ffffff !important;
+}
+
+.dropdown-menu {
+  background: #1a1a1a !important;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.35);
+}
+
+.dropdown-menu a {
+  color: #d5dde4 !important;
+}
+
+.as-mobile-menu .as-menu-container {
+  background: #0f0f0f !important;
+}
+
+.as-mobile-nav a,
+.as-nav-label {
+  color: #ffffff !important;
+}
+
+.as-acc-card,
+.as-acc-card-inner,
+.premium-feature-card,
+.as-team-card,
+.as-neon-card,
+.contact-form-card,
+.as-step-item,
+.feature-card,
+.pillar-card,
+.cfd-card-v2,
+.step-card-v2,
+.roller-card {
+  background: #1a1a1a !important;
+  border-color: rgba(255, 255, 255, 0.1) !important;
+  color: #d5dde4 !important;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+}
+
+.as-section-title,
+.as-ultra-title,
+.section-title,
+.orbital-title,
+.as-acc-name,
+.as-acc-meta,
+.as-step-item h4,
+.as-team-content h3,
+.as-vision-inner h3,
+.foundation-title,
+.cfd-card-title,
+.feature-card h3,
+.pillar-card h4,
+.section-header h2,
+.stat-num,
+.stat-label,
+.card-symbol,
+.card-price,
+h1, h2, h3, h4 {
+  color: #ffffff !important;
+}
+
+.as-section-subtitle,
+.as-acc-desc,
+.orbital-desc,
+.contact-lead,
+.feature-value,
+.as-team-content p,
+.as-vision-inner p,
+.stat-detail,
+.feature-card p,
+.foundation-desc,
+.pillar-card p,
+.cfd-card-desc,
+.section-header p,
+.as-acc-meta {
+  color: #b7c2cb !important;
+}
+
+.as-acc-meta strong,
+.text-glow,
+.as-highlight {
+  color: #f40000 !important;
+}
+
+.cta-wrapper,
+.cta-card {
+  color: #ffffff;
+}
+
+.top-header {
+  background: #141414 !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+}
+
+.top-header a,
+.mailing-list,
+.free-demo {
+  color: #d5dde4 !important;
+}
+
+.btn-login {
+  color: #ffffff !important;
+  border-color: rgba(255, 255, 255, 0.25) !important;
+  background: transparent !important;
+}
+
+.as-badge {
+  background: rgba(244, 0, 0, 0.12) !important;
+  color: #f40000 !important;
+}
+
+.header-ghost-text {
+  color: rgba(255, 255, 255, 0.04) !important;
+}
+
+.premium-feature-card h4,
+.premium-feature-card .feature-value {
+  color: #ffffff !important;
+}
+
+.premium-platform-grid--solo {
+  grid-template-columns: 1fr !important;
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.premium-platform-grid--solo .innovation-content {
+  text-align: center;
+}
+
+.premium-platform-grid--solo .innovation-desc {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.premium-platform-grid--solo .premium-feature-grid {
+  text-align: left;
+}
+
+.footer-license-link {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.footer-license-link:hover {
+  color: var(--primary) !important;
+}
+
+.hero-content h1,
+.hero-content p {
+  color: #ffffff;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.35);
+}
+
+.logo img,
+.footer-logo,
+.as-menu-logo {
+  height: 40px !important;
+  width: auto !important;
+  max-width: 220px;
+  max-height: none !important;
+  object-fit: contain;
+}

@@ -1,0 +1,306 @@
+{
+  "about.html": [
+    {
+      "q": "Who regulates Crib Market?",
+      "a": "Crib Market operates as a multi-asset broker licensed from the USA. Client balances are held separately from company funds, with security controls in place across the trading environment."
+    },
+    {
+      "q": "Which platforms can I use?",
+      "a": "You trade on MetaTrader 5. That covers desktop terminals, iOS and Android apps, and browser access so you can work from wherever you sit."
+    },
+    {
+      "q": "How are client funds looked after?",
+      "a": "Money you deposit is kept in segregated accounts at established banks. It is not mixed with Crib Market operating capital."
+    },
+    {
+      "q": "Can traders in the United States open an account?",
+      "a": "Crib Market is licensed from the USA and onboards clients in many countries, including the United States. Local rules where you live can still limit which products you may use."
+    }
+  ],
+  "forex.html": [
+    {
+      "q": "What makes Crib Market a fit for FX?",
+      "a": "Pricing is published clearly, orders are handled quickly, and the desk stays available when you need help. Those conditions suit both first FX trades and more active styles."
+    },
+    {
+      "q": "Is FX trading with Crib Market secure?",
+      "a": "Yes. International operating standards apply, client money sits in segregated accounts, and sensitive data is encrypted in transit and at rest."
+    },
+    {
+      "q": "Can I practice before going live?",
+      "a": "A demo account lets you run FX ideas against live prices using virtual funds, so you can learn the platform without putting capital at risk."
+    },
+    {
+      "q": "Where do I place forex trades?",
+      "a": "MetaTrader 5 is the venue: desktop, web, and mobile. Charts, orders, and account tools sit in one place."
+    },
+    {
+      "q": "Do I need to be a professional to trade FX?",
+      "a": "No. New traders can start after learning the basics. Demo access and onboarding materials are there so you can build confidence first."
+    }
+  ],
+  "indices.html": [
+    {
+      "q": "What is an index CFD at Crib Market?",
+      "a": "An index follows a basket of listed companies. You can take a view on benchmarks such as US30, NASDAQ, FTSE, and DAX through CFDs, with published spreads and fast fills."
+    },
+    {
+      "q": "When are index markets open?",
+      "a": "Hours track the cash market underneath each contract. Many major index CFDs can be traded across global sessions, with extra coverage on selected symbols."
+    },
+    {
+      "q": "Are there overnight charges on indices?",
+      "a": "Positions held past the daily cutoff can attract swap. Review those costs on MetaTrader 5 before you hold a trade overnight."
+    },
+    {
+      "q": "Do index CFDs have an expiry?",
+      "a": "Crib Market lists rolling contracts with no set end date and futures-style contracts that do expire. Check the specification for the symbol you plan to trade."
+    },
+    {
+      "q": "How much leverage is available on indices?",
+      "a": "Index leverage can reach 1:500 depending on the account and the instrument. Gearing magnifies losses as well as gains, so size positions with care."
+    }
+  ],
+  "commodities.html": [
+    {
+      "q": "Which commodities can I trade?",
+      "a": "Gold (XAU), Silver (XAG), WTI and Brent crude, and other listed commodities are available as CFDs, each with published spreads and active liquidity."
+    },
+    {
+      "q": "Why trade commodities with Crib Market?",
+      "a": "You follow live prices and can take a view without storing metal or oil. That is useful for hedging or expressing a directional idea."
+    },
+    {
+      "q": "Is leverage offered on commodities?",
+      "a": "Selected commodities support leverage up to 1:500. Margin requirements vary by account type and by symbol."
+    },
+    {
+      "q": "Do commodity CFDs expire?",
+      "a": "Some follow a futures calendar and expire; others roll with no fixed date. Read the product sheet in the platform before you open a position."
+    },
+    {
+      "q": "What does commodity trading cost?",
+      "a": "You typically pay the spread, overnight swap if you hold past cutoff, and occasional rollover adjustments. Those figures appear in MetaTrader 5."
+    }
+  ],
+  "shares.html": [
+    {
+      "q": "What is a share CFD?",
+      "a": "A share CFD tracks a listed company's price without transferring ownership of the stock. You can go long or short as the share moves."
+    },
+    {
+      "q": "Which names might be available?",
+      "a": "Large-cap listings from the US, UK, and Europe commonly appear on multi-asset books. What you can trade depends on the symbols enabled for your account."
+    },
+    {
+      "q": "How are dividends treated?",
+      "a": "You do not receive the cash dividend. Around the ex-dividend date, a cash adjustment is usually credited if you are long and debited if you are short."
+    },
+    {
+      "q": "Can share CFDs be leveraged?",
+      "a": "Where the product is offered, leverage may apply, often up to 1:500, subject to the stock and the rules that govern it."
+    },
+    {
+      "q": "What fees apply?",
+      "a": "Expect the spread, overnight financing, and in some markets a commission. Charges for enabled products are shown in the platform."
+    }
+  ],
+  "etfs.html": [
+    {
+      "q": "What are crypto CFDs?",
+      "a": "Crypto CFDs let you trade price moves in digital assets without holding coins. You can go long or short as the market swings."
+    },
+    {
+      "q": "Which crypto CFDs are listed?",
+      "a": "Typical offerings include Bitcoin (BTC), Ethereum (ETH), Litecoin (LTC), Ripple (XRP), and other widely traded coins."
+    },
+    {
+      "q": "Do I need a wallet?",
+      "a": "No. You are not buying coins, so there is nothing to store. Positions sit inside your Crib Market trading account."
+    },
+    {
+      "q": "Is leverage available on crypto CFDs?",
+      "a": "Yes, often up to 1:500, subject to volatility and the rules that apply to the symbol."
+    },
+    {
+      "q": "When can I trade crypto CFDs?",
+      "a": "These markets usually run around the clock, including weekends, so you can react whenever the tape is moving."
+    }
+  ],
+  "crypto.html": [
+    {
+      "q": "How do crypto CFDs work at Crib Market?",
+      "a": "Each CFD follows a digital-asset price. You open a long or short position and close it when your target or stop is hit, without owning the coin."
+    },
+    {
+      "q": "Which coins can I trade as CFDs?",
+      "a": "Leading names such as Bitcoin, Ethereum, Litecoin, and Ripple are typically available, along with additional major coins."
+    },
+    {
+      "q": "Is a digital wallet required?",
+      "a": "No. Settlement stays inside your Crib Market account. You never take delivery of coins."
+    },
+    {
+      "q": "Can I use leverage on crypto CFDs?",
+      "a": "Leverage is available and can reach 1:500 depending on the market and applicable limits."
+    },
+    {
+      "q": "What are the trading hours?",
+      "a": "Crypto CFD books generally run 24/7, including weekends."
+    }
+  ],
+  "all-accounts.html": [
+    {
+      "q": "How do I open a live account?",
+      "a": "Register on the site, complete identity checks (KYC), fund the account, then you can place live trades."
+    },
+    {
+      "q": "Is a demo available?",
+      "a": "Yes. Open a demo at any time and practice with virtual funds against live market prices."
+    },
+    {
+      "q": "Which account should I pick?",
+      "a": "Match the account to capital and style. Standard starts at $100 with 1:200 leverage, Growth at $500 with 1:300, and Edge at $10,000 with 1:100. All three are swap-free."
+    },
+    {
+      "q": "Can someone else trade my account?",
+      "a": "No. Only you may operate the account. Sharing login details breaches our terms."
+    },
+    {
+      "q": "Can I change account type or currency later?",
+      "a": "Contact support to request a change. Approval can depend on recent activity and other conditions."
+    }
+  ],
+  "cent-account.html": [
+    {
+      "q": "How do I pick the right account?",
+      "a": "Look at experience, goals, and capital. Standard, Growth, and Edge cover different starting points."
+    },
+    {
+      "q": "Can I try a demo first?",
+      "a": "Yes. A demo uses virtual funds in live market conditions so you can learn the platform first."
+    },
+    {
+      "q": "May someone else place trades for me?",
+      "a": "No. Only the registered holder may trade. Sharing access is not allowed."
+    },
+    {
+      "q": "Can my account type or currency be updated?",
+      "a": "Yes. Write to support to request a change; some limits may apply."
+    },
+    {
+      "q": "Which platforms are supported?",
+      "a": "MetaTrader 5 on desktop, web, and mobile."
+    }
+  ],
+  "standard-account.html": [
+    {
+      "q": "How should I choose an account type?",
+      "a": "Weigh skill, goals, and funding. Standard, Growth, and Edge are built for different starting deposits and leverage."
+    },
+    {
+      "q": "Is a free demo available?",
+      "a": "Yes. Practice with virtual capital against real prices before you go live."
+    },
+    {
+      "q": "Can I authorize someone else to trade?",
+      "a": "No. Only the account owner may place trades."
+    },
+    {
+      "q": "Can I alter my account type or currency?",
+      "a": "Ask support. Restrictions can apply depending on your situation."
+    },
+    {
+      "q": "What trading platforms can I use?",
+      "a": "MetaTrader 5 is available on desktop, web, and mobile."
+    }
+  ],
+  "ecn-account.html": [
+    {
+      "q": "Which account fits my trading style?",
+      "a": "Capital and style guide the choice. Standard, Growth, and Edge use different minimum deposits and leverage, all with swap-free terms."
+    },
+    {
+      "q": "Can I open a demo before going live?",
+      "a": "Yes. Demo accounts use virtual funds with live pricing."
+    },
+    {
+      "q": "Is third-party trading allowed?",
+      "a": "No. Only the account holder may trade. Do not share your login."
+    },
+    {
+      "q": "How do I change account type or base currency?",
+      "a": "Send a request to support. Approval can depend on recent activity."
+    },
+    {
+      "q": "Which platforms does an Edge account use?",
+      "a": "MetaTrader 5 on desktop, web, and mobile."
+    }
+  ],
+  "gold-account.html": [
+    {
+      "q": "What account should I open?",
+      "a": "The right fit depends on background and aims. Standard, Growth, and Edge cover a range of starting points."
+    },
+    {
+      "q": "Can I practice on a demo account?",
+      "a": "Yes. Open a demo and trade virtual funds against real-time prices."
+    },
+    {
+      "q": "Does a demo account expire?",
+      "a": "Demos often close after a period of inactivity. Support can advise on timing and extensions."
+    },
+    {
+      "q": "What platforms are included?",
+      "a": "MetaTrader 5 on desktop, web, and mobile."
+    },
+    {
+      "q": "How do I start a live account?",
+      "a": "Sign up, finish verification, deposit, and you can trade live."
+    }
+  ],
+  "platforms.html": [
+    {
+      "q": "What trading tools does Crib Market provide?",
+      "a": "MetaTrader 5 brings multi-asset charts, professional order types, and access to forex and CFD markets in one terminal."
+    },
+    {
+      "q": "Can I export trading statements?",
+      "a": "Yes. Download account history from the client portal whenever you need a record of activity."
+    },
+    {
+      "q": "Which markets can I trade with Crib Market?",
+      "a": "Forex plus CFDs on indices, commodities, and cryptocurrencies, subject to the symbols enabled on your account."
+    },
+    {
+      "q": "How do I sign in to my trading account?",
+      "a": "Open the Crib Market client portal and log in with the account number, password, and server details we send after registration."
+    },
+    {
+      "q": "What happens to open trades if I log out?",
+      "a": "Positions stay on the server after you close the app. They exit only if a stop or take-profit is hit, or if you close them yourself."
+    }
+  ],
+  "partner-ib.html": [
+    {
+      "q": "How do I open a live account as a partner client?",
+      "a": "Complete registration on the website, verify identity, and fund through a method listed in the client portal."
+    },
+    {
+      "q": "Which trading account suits me best?",
+      "a": "Style, capital, and experience decide it. Standard, Growth, and Edge each use different deposit and leverage terms."
+    },
+    {
+      "q": "Can someone else manage my trades?",
+      "a": "Only if they are properly licensed and you have a formal, compliant agreement. Informal handovers are not recommended."
+    },
+    {
+      "q": "Can I change account type or currency after signup?",
+      "a": "Type and base currency are set at registration. Ask support for a change, or open a new account with the settings you want."
+    },
+    {
+      "q": "How can I deposit funds?",
+      "a": "Bank transfer, card, and other methods listed in your Crib Market client portal."
+    }
+  ]
+}
