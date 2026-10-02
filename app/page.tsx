@@ -16,7 +16,6 @@ import {
   Lock,
   Newspaper,
   Percent,
-  Shield,
   ShieldCheck,
   Star,
   TrendingUp,
@@ -67,7 +66,7 @@ const homeSlides: HeroSlide[] = [
       </>
     ),
     description:
-      "Standard, Growth, or Edge. Swap-free terms that follow how much you fund and how you size risk.",
+      "Standard, Growth, or Edge. Leverage and swap that follow how much you fund and how you size risk.",
     videoSrc: asset.heroVideo,
     primaryHref: "/accounts",
     primaryLabel: "Browse Accounts",
@@ -126,7 +125,7 @@ export default function HomePage() {
               </div>
               <h3>Published pricing</h3>
               <p>
-                Swap-free overnight terms on Standard, Growth, and Edge, with
+                Published leverage and swap on Standard, Growth, and Edge, with
                 costs you can read before you click.
               </p>
             </div>
@@ -250,8 +249,8 @@ export default function HomePage() {
               <span>how you fund</span>
             </h2>
             <p className="section-desc">
-              Standard, Growth, or Edge. Swap-free terms set by deposit
-              size and leverage, not by hidden add-ons.
+              Standard, Growth, or Edge. Leverage and swap set by deposit
+              size, not by hidden add-ons.
             </p>
           </div>
 
@@ -271,11 +270,11 @@ export default function HomePage() {
                 </li>
                 <li>
                   <CheckCircle style={{ color: "#f40000", marginRight: 20 }} />{" "}
-                  Leverage: 1:200
+                  Leverage: 1:1000
                 </li>
                 <li>
                   <CheckCircle style={{ color: "#f40000", marginRight: 20 }} />{" "}
-                  Swap: Free
+                  Swap: Yes
                 </li>
                 <li>
                   <CheckCircle style={{ color: "#f40000", marginRight: 20 }} />{" "}
@@ -302,11 +301,11 @@ export default function HomePage() {
                 </li>
                 <li>
                   <CheckCircle style={{ color: "#f40000", marginRight: 20 }} />{" "}
-                  Leverage: 1:300
+                  Leverage: 1:500
                 </li>
                 <li>
                   <CheckCircle style={{ color: "#f40000", marginRight: 20 }} />{" "}
-                  Swap: Free
+                  Swap: Yes
                 </li>
                 <li>
                   <CheckCircle style={{ color: "#f40000", marginRight: 20 }} />{" "}
@@ -333,11 +332,11 @@ export default function HomePage() {
                 </li>
                 <li>
                   <CheckCircle style={{ color: "#f40000", marginRight: 20 }} />{" "}
-                  Leverage: 1:100
+                  Leverage: 1:200
                 </li>
                 <li>
                   <CheckCircle style={{ color: "#f40000", marginRight: 20 }} />{" "}
-                  Swap: Free
+                  Swap: Yes
                 </li>
                 <li>
                   <CheckCircle style={{ color: "#f40000", marginRight: 20 }} />{" "}
@@ -572,7 +571,7 @@ export default function HomePage() {
               </div>
               <h3 className="cfd-card-title">Account Options</h3>
               <p className="cfd-card-desc">
-                Standard, Growth, or Edge. Swap-free overnight terms, three
+                Standard, Growth, or Edge. Swap on overnight positions, three
                 deposit starting points.
               </p>
               <div className="cfd-card-img-wrap">
@@ -753,19 +752,6 @@ export default function HomePage() {
               </p>
 
               <div className="pillar-grid">
-                <div className="pillar-card">
-                  <Shield />
-                  <h4>Licensed Broker</h4>
-                  <p>
-                    <a
-                      href={site.licensePdf}
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Licensed from USA
-                    </a>
-                  </p>
-                </div>
                 <div className="pillar-card">
                   <Lock />
                   <h4>Client Fund Safety</h4>

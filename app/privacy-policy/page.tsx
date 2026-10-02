@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
   title: "Privacy Policy",
@@ -206,7 +207,7 @@ export default function PrivacyPolicyPage() {
                 <div>
                   <h4 className="text-white font-bold mb-1">Privacy Enquiries</h4>
                   <p style={{ color: "#666", fontSize: "0.85rem" }}>
-                    info@cribmarket.com
+                    {site.supportEmail}
                   </p>
                 </div>
                 <div

@@ -18,11 +18,28 @@ export default function ContactPage() {
             Send a note and the desk will reply.
           </p>
           <p className="contact-lead" style={{ marginTop: 8 }}>
-            Rather write directly? Contact us at{" "}
+            <strong>Email:</strong>{" "}
             <a href={`mailto:${site.supportEmail}`}>{site.supportEmail}</a>
           </p>
           <p className="contact-lead" style={{ marginTop: 8 }}>
-            {site.address.line1}, {site.address.line2}
+            <strong>Chat:</strong>{" "}
+            <a
+              href={site.chat.href}
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Chat on WhatsApp"
+            >
+              {site.chat.label}
+            </a>
+          </p>
+          <p className="contact-lead" style={{ marginTop: 8 }}>
+            <strong>Office Address:</strong>
+            <br />
+            {site.address.line1}
+            <br />
+            {site.address.line2}
+            <br />
+            {site.address.line3}
             <br />
             {site.address.city}, {site.address.country}
           </p>

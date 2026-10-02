@@ -1,12 +1,5 @@
 import Image from "next/image";
 import Link from "next/link";
-import { Download, Send, ShieldCheck } from "lucide-react";
-import {
-  FacebookIcon,
-  InstagramIcon,
-  TwitterIcon,
-  YoutubeIcon,
-} from "@/components/icons/SocialIcons";
 import { site } from "@/lib/site";
 
 export function Footer() {
@@ -29,31 +22,6 @@ export function Footer() {
               Growth, and Edge accounts in one place. Trade with terms you
               can read before you send the order.
             </p>
-            <div className="footer-social-row mt-4">
-              <a href={site.social.facebook} target="_blank" rel="noreferrer">
-                <FacebookIcon size={18} />
-              </a>
-              <a href={site.social.telegram} target="_blank" rel="noreferrer">
-                <Send size={18} />
-              </a>
-              <a href={site.social.youtube} target="_blank" rel="noreferrer">
-                <YoutubeIcon size={18} />
-              </a>
-              <a href={site.social.x} target="_blank" rel="noreferrer">
-                <TwitterIcon size={18} />
-              </a>
-              <a href={site.social.instagram} target="_blank" rel="noreferrer">
-                <InstagramIcon size={18} />
-              </a>
-              <a
-                href="#"
-                className="footer-android-download"
-                aria-label="Download Crib Market Android app"
-              >
-                <Download size={16} aria-hidden="true" />
-                <span>Download for Android</span>
-              </a>
-            </div>
           </div>
 
           <div className="footer-col" data-aos="fade-up" data-aos-delay="100">
@@ -125,6 +93,16 @@ export function Footer() {
               <li>
                 <a href={`mailto:${site.supportEmail}`}>{site.supportEmail}</a>
               </li>
+              <li>
+                <a
+                  href={site.chat.href}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Chat on WhatsApp"
+                >
+                  {site.chat.label}
+                </a>
+              </li>
             </ul>
           </div>
         </div>
@@ -192,33 +170,28 @@ export function Footer() {
             }}
           >
             <p>
-              <ShieldCheck
-                size={12}
-                style={{
-                  display: "inline-block",
-                  marginRight: 5,
-                  verticalAlign: "middle",
-                }}
-              />{" "}
-              <a
-                href={site.licensePdf}
-                target="_blank"
-                rel="noopener noreferrer"
-                className="footer-license-link"
-              >
-                <strong>{site.license}</strong>
-              </a>
-            </p>
-            <p>
               <strong>Address:</strong> {site.address.line1}
               <br />
               {site.address.line2}
+              <br />
+              {site.address.line3}
               <br />
               {site.address.city}, {site.address.country}
             </p>
             <p>
               <strong>Email:</strong>{" "}
               <a href={`mailto:${site.supportEmail}`}>{site.supportEmail}</a>
+            </p>
+            <p>
+              <strong>Chat:</strong>{" "}
+              <a
+                href={site.chat.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="Chat on WhatsApp"
+              >
+                {site.chat.label}
+              </a>
             </p>
           </div>
         </div>

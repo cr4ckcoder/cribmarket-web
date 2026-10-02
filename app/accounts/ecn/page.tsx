@@ -12,7 +12,7 @@ import { asset, site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "ECN Account",
   description:
-    "Crib Market ECN accounts start from a $10,000 minimum deposit, with $100 minimum withdrawal, 1:100 leverage, and swap-free trading.",
+    "Crib Market ECN accounts start from a $10,000 minimum deposit, with $100 minimum withdrawal, 1:200 leverage, and swap on overnight positions.",
 };
 
 const slides: HeroSlide[] = [
@@ -48,9 +48,9 @@ const slides: HeroSlide[] = [
     ),
     description: (
       <>
-        $10,000 minimum deposit, $100 minimum withdrawal, and 1:100 leverage.
+        $10,000 minimum deposit, $100 minimum withdrawal, and 1:200 leverage.
         <br />
-        Swap-free trading across more than 900 instruments.
+        Swap applies on overnight positions across more than 900 instruments.
       </>
     ),
     videoSrc: asset.heroVideo,
@@ -73,7 +73,7 @@ const slides: HeroSlide[] = [
         Engineered for high-frequency and automated approaches.
       </>
     ),
-    imageSrc: asset.laptop,
+    imageSrc: asset.heroTradingMobile,
     imageAlt: "Speed-Focused Fills for Scalp & HFT Strategies",
     primaryHref: site.registerUrl,
     primaryLabel: "EXPLORE TERMINALS",
@@ -91,8 +91,8 @@ const features = [
     value: "$100",
     icon: accountFeatureIcons.withdrawal,
   },
-  { title: "Leverage", value: "1:100", icon: accountFeatureIcons.leverage },
-  { title: "Swap", value: "Free", icon: accountFeatureIcons.swap },
+  { title: "Leverage", value: "1:200", icon: accountFeatureIcons.leverage },
+  { title: "Swap", value: "Yes", icon: accountFeatureIcons.swap },
   { title: "Platform", value: "Crib Market", icon: accountFeatureIcons.platform },
   {
     title: "Account Type",

@@ -2834,10 +2834,15 @@ ul {
     margin-bottom: 12px;
 }
 
+.footer-col {
+    min-width: 0;
+}
+
 .footer-col ul li a {
     color: #aaa;
     font-size: 0.9rem;
     transition: color 0.3s ease;
+    overflow-wrap: anywhere;
 }
 
 .footer-col ul li a:hover {
@@ -4783,9 +4788,26 @@ body > *:last-child {
 
 .contact-lead {
     color: #aaa;
-    max-width: 420px;
+    max-width: 480px;
     margin: 8px auto 0;
+    padding: 0 16px;
+    box-sizing: border-box;
     font-size: 1rem;
+    overflow-wrap: break-word;
+}
+
+.contact-lead strong {
+    color: #fff;
+    font-weight: 600;
+}
+
+.contact-lead a {
+    color: var(--primary);
+    font-weight: 600;
+}
+
+.contact-lead a:hover {
+    text-decoration: underline;
 }
 
 .contact-form-wrap {
@@ -6294,12 +6316,18 @@ body > *:last-child {
     margin-bottom: 15px;
 }
 
+.footer-col {
+    min-width: 0;
+}
+
 .footer-col ul li a {
     color: rgba(255, 255, 255, 0.4);
     transition: all 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
     text-decoration: none;
     font-size: 0.9rem;
     display: inline-block;
+    overflow-wrap: anywhere;
+    max-width: 100%;
 }
 
 .footer-col ul li a:hover {

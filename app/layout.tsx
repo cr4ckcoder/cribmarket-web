@@ -99,13 +99,14 @@ const organizationJsonLd = {
     "Crib Market provides multi-asset CFD trading with Standard, Growth, and Edge accounts on MetaTrader 5.",
   address: {
     "@type": "PostalAddress",
-    streetAddress: `${site.address.line1}, ${site.address.line2}`,
+    streetAddress: `${site.address.line1}, ${site.address.line2}, ${site.address.line3}`,
     addressLocality: site.address.city,
     addressCountry: site.address.country,
   },
   contactPoint: {
     "@type": "ContactPoint",
     email: site.supportEmail,
+    telephone: "+447452016572",
     contactType: "customer support",
     availableLanguage: ["English"],
   },

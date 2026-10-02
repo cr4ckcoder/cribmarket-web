@@ -324,27 +324,6 @@ export default function PlatformsPage() {
               </p>
             </div>
             <div className="as-cta-actions">
-              <div className="as-app-links">
-                <a href="#">
-                  <Image
-                    src={asset.appStoreIcon}
-                    alt="App Store"
-                    width={140}
-                    height={42}
-                  />
-                </a>
-                <a
-                  href="#"
-                  aria-label="Download Crib Market Android app"
-                >
-                  <Image
-                    src={asset.googlePlayIcon}
-                    alt="Download Android App"
-                    width={140}
-                    height={42}
-                  />
-                </a>
-              </div>
               <a href={site.registerUrl} className="as-btn-primary">
                 GET STARTED NOW
               </a>

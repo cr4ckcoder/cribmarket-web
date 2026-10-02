@@ -38,17 +38,17 @@ export const accountLinks: NavLink[] = [
   {
     label: "Standard",
     href: "/accounts/standard",
-    description: "From $100 with 1:200 leverage",
+    description: "From $100 with 1:1000 leverage",
   },
   {
     label: "Growth",
     href: "/accounts/growth",
-    description: "From $500 with 1:300 leverage",
+    description: "From $500 with 1:500 leverage",
   },
   {
     label: "Edge",
     href: "/accounts/edge",
-    description: "From $10,000 with raw spreads",
+    description: "From $10,000 with 1:200 leverage",
   },
   { label: "All Accounts", href: "/accounts" },
 ];
