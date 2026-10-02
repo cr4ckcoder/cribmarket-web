@@ -12,7 +12,7 @@ import { asset, site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Growth Account",
   description:
-    "Crib Market Growth accounts start from $500, with $100 minimum withdrawal, 1:300 leverage, and swap-free overnight terms.",
+    "Crib Market Growth accounts start from $500, with $100 minimum withdrawal, 1:500 leverage, and swap on overnight positions.",
 };
 
 const slides: HeroSlide[] = [
@@ -22,14 +22,14 @@ const slides: HeroSlide[] = [
       <>
         Growth Account.
         <br />
-        <strong>1:300 Leverage.</strong>
+        <strong>1:500 Leverage.</strong>
       </>
     ),
     description: (
       <>
         Open from a $500 minimum deposit with a $100 minimum withdrawal.
         <br />
-        Swap-free trading with leverage up to 1:300.
+        Swap on overnight positions, with leverage up to 1:500.
       </>
     ),
     imageSrc: asset.heroMan,
@@ -48,9 +48,9 @@ const slides: HeroSlide[] = [
     ),
     description: (
       <>
-        Step up from Standard with a $500 entry point and 1:300 leverage.
+        Step up from Standard with a $500 entry point and 1:500 leverage.
         <br />
-        Swap-free conditions on MetaTrader 5.
+        Swap applies on overnight positions on MetaTrader 5.
       </>
     ),
     videoSrc: asset.heroVideo,
@@ -61,20 +61,20 @@ const slides: HeroSlide[] = [
     type: "image",
     title: (
       <>
-        Swap-Free Trading for
+        Overnight Positions for
         <br />
         <strong>Growing Accounts</strong>
       </>
     ),
     description: (
       <>
-        Keep overnight positions without swap charges.
+        Overnight positions can carry swap on Growth.
         <br />
         $500 minimum deposit and $100 minimum withdrawal.
       </>
     ),
-    imageSrc: asset.laptop,
-    imageAlt: "Swap-free Growth account trading",
+    imageSrc: asset.heroTradingMobile,
+    imageAlt: "Growth account trading",
     primaryHref: site.registerUrl,
     primaryLabel: "GET STARTED",
   },
@@ -91,8 +91,8 @@ const features = [
     value: "$100",
     icon: accountFeatureIcons.withdrawal,
   },
-  { title: "Leverage", value: "1:300", icon: accountFeatureIcons.leverage },
-  { title: "Swap", value: "Free", icon: accountFeatureIcons.swap },
+  { title: "Leverage", value: "1:500", icon: accountFeatureIcons.leverage },
+  { title: "Swap", value: "Yes", icon: accountFeatureIcons.swap },
   { title: "Platform", value: "MetaTrader 5", icon: accountFeatureIcons.platform },
   {
     title: "Account Type",

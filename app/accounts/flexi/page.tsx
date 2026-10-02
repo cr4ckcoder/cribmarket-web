@@ -12,7 +12,7 @@ import { asset, site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Flexi Account",
   description:
-    "Crib Market Flexi accounts start from a $100 minimum deposit, with $100 minimum withdrawal, 1:200 leverage, and swap-free trading.",
+    "Crib Market Flexi accounts start from a $100 minimum deposit, with $100 minimum withdrawal, 1:1000 leverage, and swap on overnight positions.",
 };
 
 const slides: HeroSlide[] = [
@@ -29,7 +29,7 @@ const slides: HeroSlide[] = [
       <>
         Open with a $100 minimum deposit and a $100 minimum withdrawal.
         <br />
-        Swap-free terms on the Crib Market platform.
+        Swap applies on overnight positions on the Crib Market platform.
       </>
     ),
     imageSrc: asset.heroMan,
@@ -43,12 +43,12 @@ const slides: HeroSlide[] = [
       <>
         Everyday Trading with
         <br />
-        <span className="text-primary">1:200 Leverage</span>
+        <span className="text-primary">1:1000 Leverage</span>
       </>
     ),
     description: (
       <>
-        Flexi gives you room to size positions with up to 1:200 leverage.
+        Flexi gives you room to size positions with up to 1:1000 leverage.
         <br />
         A clear on-ramp for traders who want straightforward account terms.
       </>
@@ -61,20 +61,20 @@ const slides: HeroSlide[] = [
     type: "image",
     title: (
       <>
-        Swap-Free Conditions for
+        Clear Terms for
         <br />
         <strong>Day-to-Day Trading</strong>
       </>
     ),
     description: (
       <>
-        Overnight positions stay swap-free on Flexi.
+        Overnight positions can carry swap on Flexi.
         <br />
         Simple funding, clear leverage, Crib Market execution.
       </>
     ),
-    imageSrc: asset.laptop,
-    imageAlt: "Swap-free Flexi account trading",
+    imageSrc: asset.heroTradingMobile,
+    imageAlt: "Flexi account trading",
     primaryHref: site.registerUrl,
     primaryLabel: "GET STARTED",
   },
@@ -91,8 +91,8 @@ const features = [
     value: "$100",
     icon: accountFeatureIcons.withdrawal,
   },
-  { title: "Leverage", value: "1:200", icon: accountFeatureIcons.leverage },
-  { title: "Swap", value: "Free", icon: accountFeatureIcons.swap },
+  { title: "Leverage", value: "1:1000", icon: accountFeatureIcons.leverage },
+  { title: "Swap", value: "Yes", icon: accountFeatureIcons.swap },
   { title: "Platform", value: "Crib Market", icon: accountFeatureIcons.platform },
   {
     title: "Account Type",

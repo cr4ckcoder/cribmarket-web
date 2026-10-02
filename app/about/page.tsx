@@ -259,7 +259,7 @@ export default function AboutPage() {
           <div className="as-vision-footer text-center mt-12" data-aos="zoom-in">
             <p>
               Crib Market encrypts client data and operates as a broker licensed
-              from the USA. Office: 117 S Lexington St, Ste 100, HARRISONVILLE, USA.
+              from the USA. Office: {site.address.full}.
             </p>
           </div>
         </div>

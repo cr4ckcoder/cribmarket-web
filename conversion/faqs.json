@@ -160,7 +160,7 @@
     },
     {
       "q": "Which account should I pick?",
-      "a": "Match the account to capital and style. Standard starts at $100 with 1:200 leverage, Growth at $500 with 1:300, and Edge at $10,000 with 1:100. All three are swap-free."
+      "a": "Match the account to capital and style. Standard starts at $100 with 1:1000 leverage, Growth at $500 with 1:500, and Edge at $10,000 with 1:200. All three apply swap on overnight positions."
     },
     {
       "q": "Can someone else trade my account?",
@@ -218,7 +218,7 @@
   "ecn-account.html": [
     {
       "q": "Which account fits my trading style?",
-      "a": "Capital and style guide the choice. Standard, Growth, and Edge use different minimum deposits and leverage, all with swap-free terms."
+      "a": "Capital and style guide the choice. Standard, Growth, and Edge use different minimum deposits and leverage, and all three apply swap."
     },
     {
       "q": "Can I open a demo before going live?",

@@ -9,7 +9,7 @@ import { asset, site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Trading Accounts",
   description:
-    "Compare Crib Market Standard, Growth, and Edge accounts. Three deposit starting points, swap-free terms, MetaTrader 5.",
+    "Compare Crib Market Standard, Growth, and Edge accounts. Three deposit starting points, swap on overnight positions, MetaTrader 5.",
 };
 
 const slides: HeroSlide[] = [
@@ -26,7 +26,7 @@ const slides: HeroSlide[] = [
       <>
         Choose Standard from $100, Growth from $500, or Edge from $10,000.
         <br />
-        All three are swap-free with a $100 minimum withdrawal.
+        All three apply swap, with a $100 minimum withdrawal.
       </>
     ),
     imageSrc: asset.heroMan,
@@ -127,7 +127,7 @@ export default function AccountsPage() {
             </h2>
             <p className="as-section-subtitle">
               Three live accounts — Standard, Growth, and Edge — shaped
-              around deposit size, leverage, and swap-free terms.
+              around deposit size, leverage, and swap.
             </p>
             <div className="as-title-divider" />
           </div>
@@ -138,48 +138,44 @@ export default function AccountsPage() {
               data-aos="fade-up"
               data-aos-delay="100"
             >
-              <div className="as-acc-card-inner">
-                <div className="as-acc-icon">
-                  <svg
-                    width="40"
-                    height="40"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-2.066 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946 2.066 3.42 3.42 0 010 4.606 3.42 3.42 0 00-2.066 1.946 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-2.066 3.42 3.42 0 010-4.606z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="as-acc-name">Standard Account</h3>
-                <p className="as-acc-desc">
-                  Entry live account from a $100 minimum deposit, with 1:200
-                  leverage and swap-free trading on MetaTrader 5.
-                </p>
-                <div className="as-acc-meta">
-                  <span>
-                    Min Deposit: <strong>$100</strong>
-                  </span>
-                  <span>
-                    Min Withdrawal: <strong>$100</strong>
-                  </span>
-                </div>
-                <div className="as-acc-meta">
-                  <span>
-                    Leverage: <strong>1:200</strong>
-                  </span>
-                  <span>
-                    Swap: <strong>Free</strong>
-                  </span>
-                </div>
-                <Link href="/accounts/standard" className="as-acc-link">
-                  VIEW DETAILS
-                </Link>
+              <div className="as-acc-icon">
+                <svg
+                  width="40"
+                  height="40"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M9 12l2 2 4-4M7.835 4.697a3.42 3.42 0 001.946-2.066 3.42 3.42 0 014.438 0 3.42 3.42 0 001.946 2.066 3.42 3.42 0 010 4.606 3.42 3.42 0 00-2.066 1.946 3.42 3.42 0 01-4.438 0 3.42 3.42 0 00-1.946-2.066 3.42 3.42 0 010-4.606z"
+                  />
+                </svg>
               </div>
+              <h3 className="as-acc-name">Standard Account</h3>
+              <p className="as-acc-desc">
+                Entry live account from a $100 minimum deposit, with 1:1000
+                leverage and swap on overnight positions on MetaTrader 5.
+              </p>
+              <div className="as-acc-meta">
+                <span>
+                  Min Deposit: <strong>$100</strong>
+                </span>
+                <span>
+                  Min Withdrawal: <strong>$100</strong>
+                </span>
+                <span>
+                  Leverage: <strong>1:1000</strong>
+                </span>
+                <span>
+                  Swap: <strong>Yes</strong>
+                </span>
+              </div>
+              <Link href="/accounts/standard" className="as-acc-link">
+                VIEW DETAILS
+              </Link>
             </div>
 
             <div
@@ -187,48 +183,44 @@ export default function AccountsPage() {
               data-aos="fade-up"
               data-aos-delay="200"
             >
-              <div className="as-acc-card-inner">
-                <div className="as-acc-icon">
-                  <svg
-                    width="40"
-                    height="40"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M13 10V3L4 14h7v7l9-11h-7z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="as-acc-name">Growth Account</h3>
-                <p className="as-acc-desc">
-                  Mid-tier live account from a $500 minimum deposit, with 1:300
-                  leverage and swap-free overnight conditions.
-                </p>
-                <div className="as-acc-meta">
-                  <span>
-                    Min Deposit: <strong>$500</strong>
-                  </span>
-                  <span>
-                    Min Withdrawal: <strong>$100</strong>
-                  </span>
-                </div>
-                <div className="as-acc-meta">
-                  <span>
-                    Leverage: <strong>1:300</strong>
-                  </span>
-                  <span>
-                    Swap: <strong>Free</strong>
-                  </span>
-                </div>
-                <Link href="/accounts/growth" className="as-acc-link">
-                  VIEW DETAILS
-                </Link>
+              <div className="as-acc-icon">
+                <svg
+                  width="40"
+                  height="40"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M13 10V3L4 14h7v7l9-11h-7z"
+                  />
+                </svg>
               </div>
+              <h3 className="as-acc-name">Growth Account</h3>
+              <p className="as-acc-desc">
+                Mid-tier live account from a $500 minimum deposit, with 1:500
+                leverage and swap on overnight positions.
+              </p>
+              <div className="as-acc-meta">
+                <span>
+                  Min Deposit: <strong>$500</strong>
+                </span>
+                <span>
+                  Min Withdrawal: <strong>$100</strong>
+                </span>
+                <span>
+                  Leverage: <strong>1:500</strong>
+                </span>
+                <span>
+                  Swap: <strong>Yes</strong>
+                </span>
+              </div>
+              <Link href="/accounts/growth" className="as-acc-link">
+                VIEW DETAILS
+              </Link>
             </div>
 
             <div
@@ -236,48 +228,44 @@ export default function AccountsPage() {
               data-aos="fade-up"
               data-aos-delay="300"
             >
-              <div className="as-acc-card-inner">
-                <div className="as-acc-icon">
-                  <svg
-                    width="40"
-                    height="40"
-                    fill="none"
-                    stroke="currentColor"
-                    viewBox="0 0 24 24"
-                  >
-                    <path
-                      strokeLinecap="round"
-                      strokeLinejoin="round"
-                      strokeWidth={1.5}
-                      d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-7.714 2.143L11 21l-2.286-6.857L1 12l7.714-2.143L11 3z"
-                    />
-                  </svg>
-                </div>
-                <h3 className="as-acc-name">Edge Account</h3>
-                <p className="as-acc-desc">
-                  Professional-tier live account with a $10,000 minimum deposit,
-                  1:100 leverage, and swap-free trading.
-                </p>
-                <div className="as-acc-meta">
-                  <span>
-                    Min Deposit: <strong>$10,000</strong>
-                  </span>
-                  <span>
-                    Min Withdrawal: <strong>$100</strong>
-                  </span>
-                </div>
-                <div className="as-acc-meta">
-                  <span>
-                    Leverage: <strong>1:100</strong>
-                  </span>
-                  <span>
-                    Swap: <strong>Free</strong>
-                  </span>
-                </div>
-                <Link href="/accounts/edge" className="as-acc-link">
-                  VIEW DETAILS
-                </Link>
+              <div className="as-acc-icon">
+                <svg
+                  width="40"
+                  height="40"
+                  fill="none"
+                  stroke="currentColor"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth={1.5}
+                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-7.714 2.143L11 21l-2.286-6.857L1 12l7.714-2.143L11 3z"
+                  />
+                </svg>
               </div>
+              <h3 className="as-acc-name">Edge Account</h3>
+              <p className="as-acc-desc">
+                Professional-tier live account with a $10,000 minimum deposit,
+                1:200 leverage, and swap on overnight positions.
+              </p>
+              <div className="as-acc-meta">
+                <span>
+                  Min Deposit: <strong>$10,000</strong>
+                </span>
+                <span>
+                  Min Withdrawal: <strong>$100</strong>
+                </span>
+                <span>
+                  Leverage: <strong>1:200</strong>
+                </span>
+                <span>
+                  Swap: <strong>Yes</strong>
+                </span>
+              </div>
+              <Link href="/accounts/edge" className="as-acc-link">
+                VIEW DETAILS
+              </Link>
             </div>
           </div>
         </div>
